@@ -9,7 +9,7 @@ function App() {
         <Navbar/>
       </Container>
       <div className=" bg-black bg-opacity-35 h-[1px]"/>
-      <Container classes={`lg:h-[55rem] flex flex-col lg:gap-6 justify-start items-center text-white px-2 py-4 bg-opacity-15 `} >
+      <Container classes={` flex flex-col  justify-start items-center text-white px-2 py-4 bg-opacity-15 `} >
         <Subbar/>
         <Outlet/>
       </Container>

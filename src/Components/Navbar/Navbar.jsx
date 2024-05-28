@@ -1,4 +1,4 @@
-import { coin ,bell,man } from "../../Assets/images"
+import { coin ,bell,man, mode } from "../../Assets/images"
 
 function Navbar() {
     return (
@@ -7,7 +7,7 @@ function Navbar() {
             <div className=" flex gap-6">
             <img src={coin} alt="" className="w-8 h-8  flex justify-center items-center rounded-md" />
             <img src={bell} alt="" className="w-8 h-8  flex justify-center items-center rounded-md" />
-            <div className="w-8 h-8 border flex justify-center items-center rounded-md" ></div>
+            <img src={mode} alt="" className="w-8 h-8  flex justify-center items-center rounded-md" />
             <img src={man} alt="" className="w-8 h-8  flex justify-center items-center rounded-md" />
             </div>
         </div>

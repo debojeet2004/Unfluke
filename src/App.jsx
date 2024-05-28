@@ -4,7 +4,7 @@ import {Container, Navbar, Subbar} from "./Components/Components"
 
 function App() {
   return (
-    <div className={`flex flex-col gap-2 h-screen `}>
+    <div className={`flex flex-col gap-2 h-screen font-sans`}>
       <Container classes={` flex flex-col gap-4 justify-center items-center text-white`}>
         <Navbar/>
       </Container>

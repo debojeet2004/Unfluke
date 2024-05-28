@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Subbar() {
     return (
-        <div className="w-full flex flex-col gap-6 md:flex-row  items-center p-2  text-[.8rem] md:text-[.7rem] md:justify-between lg:justify-start lg:gap-[1.8rem] lg:text-[.9rem] xl:text-[1.1rem] xl:gap-[2.2rem]  md:gap-2">
+        <div className="vorder w-full flex flex-col gap-6 md:flex-row  items-center p-2  text-[.8rem] md:text-[.7rem] md:justify-around  lg:gap-[1.8rem] lg:text-[.9rem] xl:text-[1.1rem]   md:gap-2">
             <Link to={`/`} className=" cursor-pointer font-semibold hover:underline decoration-2 underline-offset-4">LeaderBoard</Link>
             <Link to={`HistoricalTrading`} className=" cursor-pointer font-semibold hover:underline decoration-2 underline-offset-4">Historical Trading</Link>
             <Link to={`Historcal Chart`} className=" cursor-pointer font-semibold hover:underline decoration-2 underline-offset-4">Historcal Chart</Link>

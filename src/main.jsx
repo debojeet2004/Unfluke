@@ -5,6 +5,7 @@ import './index.css'
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import { LeaderBoard } from './Pages/Routes.js';
+import Errorpage from './Pages/errorpage/Errorpage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,35 +20,35 @@ const router = createBrowserRouter([
   },
   {
     path: "HistoricalTrading",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>,
   },
   {
     path: "Historcal Chart",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>
   },
   {
     path: "Scanners",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>,
   },
   {
     path: "Alerts",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>,
   },
   {
     path: "Basic Backtest",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>,
   },
   {
     path: "Advanced Backtest",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>,
   },
   {
     path: "Pricing",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>,
   },
   {
     path: "My Earning",
-    element: <div className='w-full h-screen flex justify-center items-center text-[4rem]'>Work on Progress :)</div>,
+    element: <Errorpage/>,
   },
 ]);
 
